@@ -1,0 +1,146 @@
+a
+{    
+    color:black;
+    text-decoration:none;
+}
+
+.img-mp-section {
+	width:143px;
+}
+.gc-ratting{
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+	}
+	.doctor_personal img{
+		
+		width: 200px;
+border-radius: 50%;
+	}
+	.patient_personal img{
+		width: 200px;
+border-radius: 50%;
+	}
+	.patient_personal-edit img{
+		width: 150px;
+border-radius: 50%;
+	}
+	.select2-selection--multiple .select2-search--inline .select2-search__field {
+	width:1px !important;
+	border:none !important;
+}
+
+.cliniccustom1 h5{
+	
+	    margin: 0 0 25px 0;
+    position: relative;
+    top: 35px;
+
+	
+}
+
+.cliniccustom1 a{
+color: #414141;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+border-radius: 20px;
+border: 1px solid #b6b6b6;
+padding: 5px 15px;
+}
+.cliniccustom1 label{
+max-width: 15%;
+}
+#map_canvas {
+   height: 350px;
+   width: 98%;
+}
+#map_canvasing {
+   height: 350px;
+   width: 98%;
+}
+
+
+.bfn-sve-another{
+
+background: #ededed;
+border-radius: 20px;
+border-color: #ededed;
+padding: 0px 176px 4px 173px;
+color: #414141;
+font-size: 16px;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+margin: 30px 0 142px 0;
+
+
+}
+
+
+
+.row-clinicgallery img{
+width: 100px;
+height: 100px;
+float: left;
+clear: both;
+margin: 0 40px 0 0;
+}
+.previouscalapp, .nextcalapp {
+    position: relative;
+}
+.forimageclose {
+	width: 65px;
+}
+
+    .scrolloff {
+        pointer-events: none;
+    }
+
+/*   final packages   */
+.first_pack:hover{
+position: relative;
+	z-index: 100;
+	box-shadow: 5px 0px 25px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 5px 0px 25px rgba(0,0,0,0.7);
+	-moz-box-shadow: 5px 0px 25px rgba(0,0,0,0.7);
+	-webkit-transform: translate(-5px,-15px);
+   -moz-transform: translate(-5px,-15px);
+   -o-transform: translate(-5px,-15px);
+   -ms-transform: translate(-5px,-15px);
+   transform: translate(-5px,-15px);
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+   transition-delay: 0s;	
+   
+
+margin-top: 20px;
+   
+}
+
+.evnt-mn.doctor{
+	overflow-x: hidden;
+	height: 700px;
+}	
+.evnt-mn.clinic{
+	overflow-x: hidden;
+	height: 700px;
+}
+.evnt-mn.medical{
+	overflow-x: hidden;
+	height: 700px;
+}
+.evnt-mn.hospital{
+	overflow-x: hidden;
+	height: 700px;
+}
+.btn-pat-newfor-hosp{
+	background-color: transparent !important;
+	border-color: transparent !important;
+	padding: 35px 0;
+} 
+.review-page-docto{
+	overflow-x: hidden;
+	height: 300px;
+}

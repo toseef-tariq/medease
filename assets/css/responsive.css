@@ -1,0 +1,586 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+    .my-tab-kj .nav-tabs li{
+        width: 20%;
+        position: relative;
+        top: 2px;
+    }
+    .my-tab-kj .nav-tabs li a {
+        font-size: 13px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1280px) {
+
+
+}
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+    .banner {
+        background-image: url(../images/home/1.jpg);
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .footer-text h6 {
+        color: #f0f0f0;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .bac-career {
+        background-image: url(../images/about/bac.png);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-bac {
+        background-image: url(../images/about/bac.png);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: -100px 0 0 0;
+    }
+	.about-bac-another{
+		 background-image: url(../images/about/bac.png);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: -100px 0 0 0;
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 1200px) {
+
+
+}
+@media (max-width: 980px) {
+
+
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .banner {
+        height: 100%;
+        background-size: contain;
+        bottom: 20px;
+        position: relative;
+    }
+    .map {
+        position: relative;
+        bottom: 0;
+        height: 100%;
+        background-size: contain;
+        margin: 45% 0 0 0;
+    }
+    .signin {
+        float: left;
+        margin: 10px 0;
+        position: relative;
+        left: -22px;
+    }
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 7px 6px;
+        margin-top: 0;
+        margin-right: 0;
+        top: 9px;
+        margin-bottom: 0;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+    .man img {
+        margin: 60px auto;
+        padding: 0;
+        width: 8%;
+        position: relative;
+        top: 30px;
+    }
+    .scroll {
+   display: none;
+    }
+    .banner h3 {
+        font-size: 22px;
+    }
+    .banner h2 {
+        font-size: 22px;
+        margin: 0 0 10px 0;
+    }
+    .banner p {
+        font-size: 16px;
+        line-height: 25px;
+        margin: 0 0 50px 0;
+        width: 100%;
+    }
+    .map-text h3 {
+        font-size: 16px;
+    }
+    .banner a {
+        font-size: 13px;
+        position: relative;
+        top: -47px;
+    }
+    .map-text h4 {
+        font-size: 15px;
+        margin: 0 0 20px 0;
+    }
+    .nav-head {
+        float: none;
+        padding: 0 0px 0 0;
+    }
+    .nav-main .active a:after {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+    }
+    .copy-right h4 {
+        font-size: 9px;
+    }
+    .footer-text h3 {
+        margin: 20px 0 50px 0;
+    }
+    .show-more i {
+        margin-left: 10px;
+    }
+    .menu-footer ul li {
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    .menu-footer {
+        margin: 20px 0 10px 0;
+    }
+    .menu-footer .active {
+        font-size: 14px;
+    }
+    .footer-text {
+        border-right: none;
+        padding: 0;
+    }
+
+    .navbar-header-resp {
+        /*position: relative;*/
+        /*top: -55px;*/
+    }
+
+    .footer-text h6 {
+        font-size: 13px;
+    }
+    .show-more {
+        font-size: 13px;
+        top: -30px;
+    }
+
+    #back-to-top {
+        right: 72px;
+    }
+    #back-to-top img {
+        width: 30px;
+    }
+
+
+    .about-bac {
+        height: 399px;
+    }
+
+    .nav-head .active:after {
+        content: url("../images/home/3.png");
+        position: absolute;
+        right: 0;
+        top: 30px;
+        left: 17px;
+    }
+
+    .search-main-find {
+        margin: 0px 0 40px 0;
+    }
+
+    .search-find img {
+        border-right: none;
+        padding-right: 40px;
+        margin: 0 auto;
+    }
+    .bac-career {
+        height: 100%;
+        margin: 10px 0;
+    }
+
+    .getting-back .form-control {
+        margin: 0;
+    }
+    .usr-commet {
+        top: 0;
+    }
+    .getting-back {
+        position: relative;
+        top: 25px;
+    }
+    .contact-banner {
+        min-height: 700px;
+    }
+
+    .terms-img {
+        padding: 30px;
+        display: block !important;
+    }
+    .terms-img img {
+        margin: 0 auto;
+    }
+
+    .terms {
+        margin: 0;
+    }
+
+    .head-terms h2 {
+        font-size: 24px;
+    }
+
+    .signin ul li {
+        list-style: none;
+        float: left;
+        margin: 0 0px 0 0;
+        font-size: 10px;
+    }
+    .logo {
+        padding: 5px 0 0 0;
+    }
+
+    .log-index {
+        position: relative;
+        left: 14px;
+    }
+    .login-modal {
+        width: 100%;
+    }
+
+    .nav-tab-find>li>a {
+        font-size: 8px;
+    }
+    .nav-tab-find>li.active>a, .nav-tab-find>li.active>a:focus, .nav-tab-find>li.active>a:hover {
+        border: none;
+    }
+    .nav-tab-find span img {
+        margin-right: 0;
+    }
+
+    .nopadding {
+        width: 100%;
+    }
+    .find {
+        position: absolute;
+        bottom: 0;
+        left: 82%;
+    }
+
+    /*inner-dashboard*/
+
+    .profile-head {
+        float: none;
+        margin: 0;
+    }
+    .profile-head img {
+        padding-left: 110px;
+    }
+    .serch-main h4 {
+        font-size: 16px;
+        border-right: none;
+    }
+    .tab-cnt-search .nav-tabs li a {
+        font-size: 12px;
+    }
+    .left-events {
+        margin: 0;
+    }
+
+    .pat-img-nw {
+        float: none;
+        margin-right: 0;
+        margin-left: 30px;
+    }
+    .table-cus h4 {
+        padding: 35px 0 0 0;
+    }
+    .table-cus h5 {
+        padding: 35px 0 0 0;
+    }
+    .nav-tb>li.active>a:after, .nav-tb>li.active>a:focus:after {
+        content: "";
+    }
+    .evnt-mn .left-events {
+        margin: 30px 0;
+    }
+
+    .row-frm {
+        border-right: none;
+        margin: 20px 0;
+        padding-right: 20px;
+    }
+
+    .btn-pat {
+        padding: 0 0 0 15px;
+    }
+    .pt-ent h6 {
+        font-size: 12px;
+        margin: 0;
+    }
+    .pt-ent .col-lg-1 img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .img-pat-view img {
+        float: left;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+
+    .quali-main p {
+        font-size: 12px;
+        width: 100%;
+        text-align: left;
+    }
+    .hospital-right {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .hospital-left {
+        padding-left: 0;
+        margin: 40px 0;
+    }
+	.signin ul li img {
+    margin: 0 5px 0 0;
+    width: 25px;
+}
+
+.signin li a {
+	    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 75px;
+}
+}
+
+@media (min-width: 1650px) and (max-width: 2000px){
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .banner {
+        height: 571px;
+        background-size: contain;
+        bottom: 20px;
+        position: relative;
+    }
+
+    .banner-text {
+        position: relative;
+        top: 0;
+    }
+    .scroll {
+        display: none;
+    }
+    .feature-inner {
+        display: block !important;
+    }
+
+    .app-banner {
+        height: 300px;
+        background-size: contain;
+        margin: 0 0px -11px 0;
+    }
+    .app {
+        float: right;
+        padding: 0px 0 0 0;
+    }
+
+    .app h3 {
+        font-size: 18px;
+    }
+    .app h4 {
+        margin: 22px 0 20px 0;
+    }
+    .footer-text {
+        border-right: none;
+        padding: 0 15px 0 0;
+    }
+
+    .bac-career {
+        height: 100%;
+        margin: 0 0 25px 0;
+    }
+    .search-find {
+        float: left;
+        margin-right: 30px;
+    }
+
+    .search-find-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .search-main-find {
+        margin: 0px 0 40px 0;
+    }
+
+    .getting-back {
+        position: relative;
+        top: 30px;
+    }
+    .contact-banner {
+        min-height: 753px;
+    }
+
+    .terms-img {
+        padding: 0;
+        display: block !important;
+    }
+
+    .terms-img img {
+        margin: 0 auto;
+    }
+
+    .terms-back {
+        margin: -250px 0 0 0;
+    }
+
+    .signin {
+        float: right;
+        margin: 0;
+    }
+
+    .nopadding {
+        padding: 0px 0 0 40px;
+    }
+    .nav-tb>li.active>a:after, .nav-tb>li.active>a:focus:after {
+        content: "";
+    }
+
+    .btn-pat {
+        padding: 0 0 0 15px;
+    }
+    .pt-ent h6 {
+        font-size: 12px;
+        margin: 0;
+    }
+    .pt-ent .col-lg-1 img {
+        float: left;
+        margin-right: 10px;
+    }
+    .hospital-left {
+        padding-left: 0;
+        margin: 40px 0;
+    }
+    .hospital-right {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .banner {
+        height: 585px;
+        background-size: contain;
+        bottom: 133px;
+    }
+    .scroll {
+        position: relative;
+        top: 10px;
+    }
+    .banner-text {
+        position: relative;
+        top: 145px;
+    }
+
+    .feature-inner {
+        display: block !important;
+    }
+
+    .footer-text {
+        border-right: none;
+    }
+
+    .copy-right {
+        position: relative;
+        top: 8px;
+    }
+
+    .app-banner {
+        height: 387px;
+        background-size: contain;
+    }
+    .app {
+        float: right;
+        padding: 40px 0 0 0;
+    }
+
+    .search-find {
+        float: left;
+        margin-right: 30px;
+    }
+
+    .search-find-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .bac-career {
+        height: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .getting-back {
+        position: relative;
+        top: 30px;
+    }
+    .contact-banner {
+        min-height: 100%;
+    }
+
+    .terms-img {
+        padding: 0;
+        display: block !important;
+    }
+
+    .terms-img img {
+        margin: 0 auto;
+    }
+
+    .terms-back {
+        margin: -250px 0 0 0;
+    }
+
+    .contact-banner {
+        min-height: 100%;
+    }
+    .nav-tb>li.active>a:after, .nav-tb>li.active>a:focus:after {
+        content: "";
+    }
+
+    .btn-pat {
+        padding: 0 0 0 15px;
+    }
+    .pt-ent h6 {
+        font-size: 12px;
+        margin: 0;
+    }
+    .pt-ent .col-lg-1 img {
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 481px) {
+
+}
